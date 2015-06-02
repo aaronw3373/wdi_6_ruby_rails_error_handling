@@ -320,12 +320,12 @@ Build a Rails app with two models: `User` and `Card`. These models have the foll
   - **Person**
     - _name_ : Can't be empty
     - _date_of_birth_ : Must be before June 1, 1997.
-    - _cards _
+    - _cards_
   - **Card**
     - _type_ : Must be either 'Visa', 'Mastercard', 'Discover', or 'American Express'
     - _number_ : Must be all numeric, and must be either 15 or 16 digits long, based on the type of card
     - _security_code_ : Must be either 3 or 4 digits long, based on the type of card
-    - _expiry_ : Must be
+    - _expiry_ : Must be before today
 
 
 ## Further Reading
